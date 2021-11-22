@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 const Tasks = () => {
-    const[tasks, setTasks] = useState([
+    const [tasks, setTasks] = useState([
         {
             id: 1,
             text: 'Visit Doctor',
@@ -19,7 +19,7 @@ const Tasks = () => {
             text: 'Eat medicine',
             day: 'November 1 at 9pm',
             reminder: true,
-        },
+        }
     ])
     return (
         <>
